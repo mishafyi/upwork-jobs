@@ -4,9 +4,34 @@ __pycache__/
 *.pyc
 .token_cache.json
 
+# local / personal
+CLAUDE.local.md
+gigradar.toml
+gigradar-*.toml
+claude-scores-backup-*.json
+profile.md
+profile_sources/
+data/
+logs/
+.claude/settings.local.json
+.env*
+!.env.example
+node_modules/
+.next/
+web/data/*
+!web/data/.gitignore
+*.db
+*.sqlite
+*.sqlite3
+
 # local artifacts
 .DS_Store
 web/preview-mobile.png
 web/.server.log
 
 # web/ has its own .gitignore for node_modules/.next/.env*/data
+
+# packaging output
+dist/
+build/
+*.spec.bak
